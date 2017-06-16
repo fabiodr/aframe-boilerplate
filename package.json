@@ -1,8 +1,12 @@
 {
-  "name": "aframe-hello-world-boilerplate",
-  "description": "Boilerplate with A-Frame's 'Hello, World!' of WebVR.",
+  "name": "mziq-webvr",
+  "description": "MZiQ WebVR",
   "version": "0.3.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabiodr/aframe-boilerplate"
+  },
   "scripts": {
     "start": "budo --live --verbose --port 3000 --open",
     "deploy": "ghpages",
@@ -10,7 +14,7 @@
   },
   "devDependencies": {
     "budo": "^7.0.0",
-    "ghpages": "0.0.3"
+    "ghpages": "0.0.10"
   },
   "keywords": [
     "aframe",
